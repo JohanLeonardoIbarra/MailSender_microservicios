@@ -4,8 +4,8 @@ import config from '../Config/config.js';
 
 const transport = createTransport(mailjetTransport({
   auth: {
-    apiKey: 'key',
-    apiSecret: 'secret'
+    apiKey: config.apiKey,
+    apiSecret: config.secretKey
   }
 }));
 
