@@ -4,7 +4,7 @@ import config from './Config/config.js';
 import morgan from 'morgan';
 
 const app = express();
-const port = config.port || 8080;
+const port = config.port || 8081;
 
 app.use(express.json());
 app.use(morgan('dev'));
